@@ -898,7 +898,7 @@ footer {
             flex-wrap: wrap;
             gap: 30px;
             .left {
-                width: 50%;
+                width: calc((100% - 30px) / 2);
                 padding-right: 30px;
                 .subHeading {
                     font-family: "DM Sans", sans-serif;
@@ -979,7 +979,7 @@ footer {
                 }
             }
             .right {
-                width: 50%;
+                width:calc((100% - 30px) / 2);
                 display: flex;
                 flex-wrap: wrap;
                 gap: 20px;
